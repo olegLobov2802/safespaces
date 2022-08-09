@@ -1,0 +1,191 @@
+.communication {
+	display: grid;
+
+	width: 100%;
+	height: 100vh;
+	padding: 18px 30px;
+
+	background: #1F2245;
+	grid-template-rows: auto 1fr auto;
+}
+
+.window {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	margin-top: 50px;
+
+	color: var(--white);
+	border-radius: 10px;
+	background: var(--black);
+}
+
+.user {
+	position: absolute;
+	top: -25px;
+	right: 16px;
+
+	display: flex;
+	gap: 6px;
+
+	font-size: 15px;
+}
+
+.time {
+	padding-right: 6px;
+
+	color: #618CDD;
+	border-right: 1px solid #618CDD;
+}
+
+.myWindows {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 280px;
+	height: 160px;
+
+	border-radius: 10px;
+	background: #232323;
+}
+
+.maAvatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 95px;
+	height: 95px;
+
+	border-radius: 50%;
+	background: #FFAEAE;
+
+	font-size: 25px;
+}
+
+.partnerAvatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 144px;
+	height: 144px;
+
+	border-radius: 50%;
+	background: #1F2245;
+
+	font-size: 30px;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 45px;
+	height: 45px;
+
+	cursor: pointer;
+	transition: all 0.2s;
+
+	border-radius: 10px;
+	background: var(--red);
+}
+
+.btn.active {
+	background: #335BA6;
+}
+
+.btn.active:hover {
+	background: #274783;
+}
+
+.btn:hover {
+	background: #8A2929;
+}
+
+.bottom {
+	display: grid;
+
+	margin-top: 14px;
+	grid-template-areas: "left middle right";
+}
+
+.right {
+	justify-content: right;
+}
+
+.middle {
+	justify-content: center;
+}
+
+.bottom div {
+	display: flex;
+	gap: 10px;
+}
+
+.phone {
+	background: #D83636;
+}
+
+.phone svg {
+	width: 50px;
+	height: 15px;
+
+	transform: rotate(-134deg);
+	fill: var(--white);
+}
+
+.exit div svg {
+	width: 14px;
+	height: 12px;
+}
+
+.exit div {
+	padding: 2px 4px;
+
+	border: 1px solid var(--white);
+	border-radius: 2px;
+}
+
+.gray {
+	background: rgb(255 255 255 / 10%);
+}
+
+.gray:hover {
+	background: rgb(255 255 255 / 20%);
+}
+
+.options {
+	background: rgb(255 255 255 / 30%);
+}
+
+.options:hover {
+	background: rgb(255 255 255 / 40%);
+}
+
+.info div svg {
+	width: 12px;
+	height: 12px;
+}
+
+.info div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 20px;
+	height: 20px;
+
+	border: 1px solid var(--white);
+	border-radius: 50%;
+}

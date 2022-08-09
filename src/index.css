@@ -1,3 +1,29 @@
 :root {
+	--white: #FFF;
+	--blue: #304596;
+	--blueDark: #0D0F2C;
+	--blueLight: #29398A;
+	--radius-s: 5px;
+	--radius-m: 12px;
+	--gilroy: "Gilroy-Regular", arial, sans-serif;
+	--red: #963030;
+	--green: #66D685;
+	--black: #000;
 }
 
+@font-face {
+	font-family: Gilroy-Regular;
+	src: url("./static/fonts/Gilroy-Regular.woff2") format("woff2"), url("./static/fonts/Gilroy-Regular.woff2") format("woff");
+
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	font-family: var(--gilroy);
+}

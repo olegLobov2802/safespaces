@@ -1,0 +1,93 @@
+.start {
+	width: 100%;
+	height: 100vh;
+	padding: 18px 30px;
+
+	background: #1F2245;
+}
+
+.camera {
+	display: grid;
+
+	width: 675px;
+	height: 375px;
+	margin: 0 auto;
+	margin-top: 140px;
+	padding: 18px;
+
+	border-radius: 10px;
+	background: var(--black);
+	grid-template-rows: auto 1fr auto;
+}
+
+.top {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.options {
+	cursor: pointer;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 45px;
+	height: 45px;
+
+	cursor: pointer;
+	transition: all 0.2s;
+
+	border-radius: 10px;
+	background: var(--red);
+}
+
+.btn.active {
+	background: #335BA6;
+}
+
+.btn.active:hover {
+	background: #274783;
+}
+
+.btn:hover {
+	background: #8A2929;
+}
+
+.title {
+	color: var(--white);
+
+	font-size: 25px;
+}
+
+.input {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.buttonSend {
+	width: 100%;
+	margin-top: 30px;
+	padding: 14px 18px;
+
+	border-radius: 10px;
+	background: #335BA6;
+
+	font-size: 16px;
+}
+
+.form {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 35px;
+
+	text-align: center;
+}

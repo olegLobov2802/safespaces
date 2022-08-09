@@ -1,0 +1,49 @@
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 8px 24px;
+
+	cursor: pointer;
+	transition: all 0.2s;
+
+	border: none;
+	border-radius: var(--radius-s);
+	background: none;
+
+	font-size: 14px;
+}
+
+.blue {
+	color: var(--white);
+	background: var(--blue);
+}
+
+.blue:hover,
+.ghost:hover {
+	background: var(--blueLight);
+}
+
+.blueLight {
+	padding: 4px 40px;
+
+	color: var(--white);
+	background: var(--blueLight);
+}
+
+.blueLight:hover {
+	background: var(--blue);
+}
+
+.ghost {
+	padding: 4px 40px;
+
+	color: var(--blueLight);
+	border: 1px solid var(--blueLight);
+	background: none;
+}
+
+.ghost:hover {
+	color: var(--white);
+}

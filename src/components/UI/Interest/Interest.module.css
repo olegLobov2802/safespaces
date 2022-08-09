@@ -1,0 +1,22 @@
+.interest {
+	display: inline-block;
+
+	padding: 3px 8px;
+
+	color: var(--white);
+	border-radius: var(--radius-s);
+
+	font-size: 12px;
+}
+
+.blue {
+	background: #6031E5;
+}
+
+.blueLight {
+	background: #3159E5;
+}
+
+.blueExtraLight {
+	background: #31A4E6;
+}
